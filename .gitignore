@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Claude Code
+.claude/
+
+# Tool results and temporary files
+tool-results/
+*.tmp
+*.temp
+
+# Screenshots (uncomment if you want to track them)
+# reports/screenshots/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Test artifacts (optional - uncomment to ignore)
+# reports/*.md
